@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PortfolioController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,8 +16,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('top');
 });
+
+Route::get('/about', [PortfolioController::class, 'showAbout'])->name('about');
+/*
+Route::get('/about', function () {
+    
+    return view('about')->name('about');
+ });
+ */
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
