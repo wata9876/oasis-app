@@ -61,3 +61,39 @@ main {
     width: 150px;
     border-radius: 50%;
 }
+
+/* Common
+-------------------------------------------------- */
+h3 {font-weight: 600;}
+
+/* WorksPage
+-------------------------------------------------- */
+
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+p {
+    font-size: 0.90rem;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+.c-card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px rgb(85 85 85 / 30%);
+    border-radius: 10px;
+    width: 70vw;
+    padding: 20px;
+    margin-bottom: 25px;
+    gap: 10px;
+    overflow: hidden;
+}

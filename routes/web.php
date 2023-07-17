@@ -20,6 +20,7 @@ Route::get('/', function () {
 });
 
 Route::get('/about', [PortfolioController::class, 'showAbout'])->name('about');
+Route::get('/work', [PortfolioController::class, 'showWork'])->name('work');
 /*
 Route::get('/about', function () {
     

@@ -15,7 +15,7 @@
         <h1>{{config('app.name')}}</h1>
         <ul id="global-menu">
             <li><a href="{{ route('about') }}">about</a></li>
-            <li><a href="#">works</a></li>
+            <li><a href="{{ route('work') }}">works</a></li>
             <li><a href="#">contact</a></li>
         </ul>
     </header>

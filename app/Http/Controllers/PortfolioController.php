@@ -25,6 +25,16 @@ class PortfolioController extends Controller
     }
 
     /**
+     * Display the registration view.
+     */
+    public function showWork()
+    {
+        //
+        return view('work');
+    }
+
+
+    /**
      * Show the form for creating a new resource.
      */
     public function create()
