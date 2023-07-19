@@ -3,8 +3,8 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PortfolioController;
-use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ArticleController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,7 +23,7 @@ Route::get('/', function () {
 Route::get('/about', [PortfolioController::class, 'showAbout'])->name('about');
 Route::get('/work', [PortfolioController::class, 'showWork'])->name('work');
 
-Route::get('/blog', [BlogController::class, 'index'])->name('blog');
+Route::get('/blog', [ArticleController::class, 'index'])->name('blog');
 Route::get('/article', [ArticleController::class, 'index'])->name('article');
 
 
@@ -37,4 +37,6 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+
+require __DIR__ . '/admin.php';
 require __DIR__.'/auth.php';

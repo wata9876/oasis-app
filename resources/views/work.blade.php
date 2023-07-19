@@ -7,15 +7,14 @@
 @section('content')
     <main id="works">
         <h2>ワークスページ</h2>
-        <p>このページでは、私がこれまでに作成してきたものを掲載しています。</p>
+        <p>このページでは、私が作成した物を紹介します。</p>
 
         <article>
             <section>
-                <h3>BBS-App</h3>
+                <h3>作成した物リスト</h3>
                 <ul>
                     <li>
-                        <a href="https://bbs-app.dainaka.live" target="_blank" class="c-card">
-                            <img src="/img/BBS-App.png" alt="BBS-App.png">
+                        <a href="{{ route('blog') }}" target="_blank" class="c-card">
                             https://bbs-app.dainaka.live
                         </a>
                     </li>
