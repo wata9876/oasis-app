@@ -19,6 +19,15 @@ body {
     padding: 0 4%;
 }
 
+.title-bottom {
+    font-weight: bold;
+    line-height: 1.5;
+    font-feature-settings: "palt";
+    margin-bottom: 2.4rem;
+    cursor: pointer;
+    position: relative;
+}
+
 /* Header
 -------------------------------------------------- */
 #header {
@@ -144,6 +153,7 @@ p {
         }
     }
 
+    
     /* Footer
     -------------------------------------------------- */
 

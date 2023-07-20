@@ -23,8 +23,9 @@ Route::get('/', function () {
 Route::get('/about', [PortfolioController::class, 'showAbout'])->name('about');
 Route::get('/work', [PortfolioController::class, 'showWork'])->name('work');
 
-Route::get('/blog', [ArticleController::class, 'index'])->name('blog');
-Route::get('/article', [ArticleController::class, 'index'])->name('article');
+Route::get('article', [ArticleController::class, 'index'])->name('article');
+
+Route::get('/show', [ArticleController::class, 'show'])->name('article.show');
 
 
 Route::get('/dashboard', function () {

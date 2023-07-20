@@ -14,7 +14,16 @@ class ArticleController extends Controller
     {
         //
         $articles = Article::all();
-        return view('blog.dashboard', compact('articles'));
+        return view('article.dashboard', compact('articles'));
+    }
+
+    /**
+     * Display a listing of the resource.
+     */
+    public function show()
+    {
+        //
+        return view('article.show');
     }
 
     /**
@@ -29,14 +38,6 @@ class ArticleController extends Controller
      * Store a newly created resource in storage.
      */
     public function store(Request $request)
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     */
-    public function show(Article $article)
     {
         //
     }

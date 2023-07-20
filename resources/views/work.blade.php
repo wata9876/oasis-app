@@ -14,8 +14,8 @@
                 <h3>作成した物リスト</h3>
                 <ul>
                     <li>
-                        <a href="{{ route('blog') }}" target="_blank" class="c-card">
-                            https://bbs-app.dainaka.live
+                        <a href="{{ route('article') }}" target="_blank" class="c-card">
+                        　課題リスト
                         </a>
                     </li>
                     <li><p>PHP/Laravelの勉強に作成した昔ながらの掲示板サービスです。</p></li>
