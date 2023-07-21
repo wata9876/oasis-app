@@ -6,7 +6,7 @@
 
 @section('content')
     <main id="works">
-        <h2>ワークスページ</h2>
+        <h2>ポートフォリオ</h2>
         <p>このページでは、私が作成した物を紹介します。</p>
 
         <article>

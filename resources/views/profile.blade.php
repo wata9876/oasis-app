@@ -8,8 +8,8 @@
     <img src="./img/top-image.jpg" alt="top-image.jpg" class="about_img">
 
     <main id="about">
-        <h1>ポートフォリオ</h1>
-        <p>当サイトは、Laravelを勉強していく中で簡単なポートフォリオを作成したいと思い作成しました。随時アップロードしていきますのでよろしくお願いします。</p>
+        <h1>プロフィール</h1>
+        <p>　エンジニア歴8年になります。watanabeと申します。<br>当サイトは、PHPのLaravelを中心に勉強するためにポートフォリオとして作成しました。<br>随時アップデートしていきますのでよろしくお願いします。</p>
         <article id="profile">
             <img src="/img/sheep.jpg" alt="sheep.jpg" class="about_img">
 

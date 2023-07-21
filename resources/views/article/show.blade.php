@@ -112,5 +112,8 @@
             </ol>
         </code><br>
         <p>laravelのトップページの右上にloginとregisterが表示されていてばインストール完了！</P>
-    </div>
+    </div><br>
+
+    <a href="{{ route('article') }}">記事一覧に戻る</a><br><br>
+    <a href="{{ route('profile') }}">プロフィールに戻る</a> 
     @endsection

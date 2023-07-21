@@ -13,14 +13,13 @@
         <ul class="dateList">
             <li class="dateList__item">{{$article->created_at}}</li>
         </ul>
-        <h2 class="heading heading-secondary">
-            <a href="{{ route('article.show') }}">{{$article->title}}</a>
-        </h2>
+        <h2 class="heading heading-secondary">{{$article->title}}</h2>
         <p class="phrase phrase-secondary">
         {{$article->content}}    
         </p>
         <div class="btn btn-right">
             <a class="btn__link btn__link-normal" href="{{ route('article.show') }}">続きを読む</a>
         </div>
-    @endforeach       
+    @endforeach
+    <a href="{{ route('profile') }}">プロフィールに戻る</a>    
 @endsection

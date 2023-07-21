@@ -18,10 +18,10 @@ class PortfolioController extends Controller
     /**
      * Display the registration view.
      */
-    public function showAbout()
+    public function showProfile()
     {
         //
-        return view('about');
+        return view('profile');
     }
 
     /**
