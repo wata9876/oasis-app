@@ -4,7 +4,9 @@ body {font-family: 'Klee One', cursive;}
 
 img {width: 100%;}
 
-h1 {font-size: 1.50rem;}
+h1 {font-size: 1.50rem;
+    margin-bottom: 2.0rem;
+}
 h2 {font-size: 1.25rem;
     margin-bottom: 20px;
 }
@@ -78,6 +80,7 @@ h3 {font-weight: 600;}
 }
 p {
     font-size: 0.90rem;
+    margin-bottom: 2.4rem;
 }
 
 a {

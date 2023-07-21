@@ -14,9 +14,9 @@
     <header id="header">
         <h1>{{config('app.name')}}</h1>
         <ul id="global-menu">
-            <li><a href="{{ route('about') }}">about</a></li>
-            <li><a href="{{ route('work') }}">works</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="{{ route('about') }}">プロフィール</a></li>
+            <li><a href="{{ route('work') }}">ポートフォリオ</a></li>
+            <li><a href="#">お問い合わせ</a></li>
         </ul>
     </header>
 

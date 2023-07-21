@@ -19,13 +19,36 @@ body {
     padding: 0 4%;
 }
 
+.h1-bottom {
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 1.4rem;
+    text-align:center;
+    padding: 0.5rem 0rem;
+    border-bottom: 3px solid #f6ba33;
+    font-size: 26px;
+}
+
+.code-frame, .it-MdContent .highlight {
+    background-color: var(--color-gray-110);
+    color: var(--color-gray-0);
+}
+
+
 .title-bottom {
     font-weight: bold;
     line-height: 1.5;
-    font-feature-settings: "palt";
-    margin-bottom: 2.4rem;
-    cursor: pointer;
-    position: relative;
+    margin-bottom: 1.5rem;
+    padding: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+}
+
+.content-bottom {
+    line-height: 1.5;
+    margin-bottom: 2.0rem;
 }
 
 /* Header
@@ -111,7 +134,7 @@ h3 {
 }
 
 p {
-    font-size: 0.90rem;
+    font-size: 1.2rem;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
